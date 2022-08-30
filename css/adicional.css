@@ -1,0 +1,166 @@
+body{
+    background-color: #191D28;
+    
+}
+
+header{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.gradiante {
+    
+    position: relative;
+    bottom: 0;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    font-size: 12vw;
+    line-height: 1;
+    color: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(75,77,100,0.25)), to(rgba(75,77,100,0)));
+    background: -webkit-linear-gradient(rgba(75,77,100,0.25), rgba(75,77,100,0));
+    background: -o-linear-gradient(rgba(75,77,100,0.25), rgba(75,77,100,0));
+    background: linear-gradient(rgba(75,77,100,0.25), rgba(75,77,100,0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    z-index: 1; 
+}
+
+
+    @media only screen and (max-width: 576px) {
+        .principal{
+            padding-top: 20vw !important;  padding-bottom: 20vw !important;
+        }
+        
+    }
+    
+    @media only screen and (min-width: 576px) {
+        .principal{
+            padding-top: 25vh !important;  padding-bottom: 25vh !important;
+        }
+    }
+
+
+    .agrandar{
+        transition: all 0.5s;
+    }
+
+    .agrandar:hover{
+        width: 55px;
+        height: 55px;
+    }
+
+    .vid {
+        position: relative;
+        background-color: #000;
+        height: 75vh;
+        min-height: 25rem;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    header .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #000;
+        opacity: 0.5;
+        z-index: 1;
+    }
+
+    .containerv-fluid {
+        width: 100%;
+        
+        align-items: center;
+        
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 50px;
+    }
+
+    .title-shot {
+        vertical-align: middle;
+        font-family: 'Blinker', sans-serif;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .description-shot {
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        color: #fff;
+    }
+
+    .arriba{
+        position: absolute;
+       
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 2;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .carta:hover{
+        
+        background: -webkit-linear-gradient(135deg, #7121ff 0%, #21d4fd 100%)
+    }
+
+     .carta:hover  .cartaIcono{
+        transform:translate(0,-10px);
+    }
+
+    .cartaIcono{
+        transition: all 0.5s;
+    }
+
+    
+.linea {
+    border-top: 2px solid rgb(1, 55, 203);
+    height: 50px;
+    max-width: 200px;
+    padding: 0;
+  
+    opacity: 50;
+  }
+
+  .social{
+    transition: all 0.5s;
+  }
+  .social:hover{
+    background-color: #1549d7;
+  }
+
+
+  .footer-bg {
+    background-image: url(https://drive.google.com/uc?id=1dkYwl2a3jay1oLXaBIWx4cv88ZHlp0ns) center;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 266px;
+}
+        
+
+    

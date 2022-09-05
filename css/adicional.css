@@ -39,6 +39,13 @@ header{
 }
 
 
+        @media screen and (min-width: 1920px) {
+        .containerv-fluid{
+            display:none !important;
+        }
+        
+    }
+
     @media only screen and (max-width: 576px) {
         .principal{
             padding-top: 20vw !important;  padding-bottom: 20vw !important;
